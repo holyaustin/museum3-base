@@ -26,13 +26,5 @@ module.exports = {
       //gasPrice: 35000000000,
       //saveDeployments: true,
     },
-    neonDevnet: {
-      url: "https://neon-evm-devnet.drpc.org",
-      accounts: [process.env.ACCOUNT_PRIVATE_KEY],
-      allowUnlimitedContractSize: false,
-      timeout: 1000000,
-      isFork: true,
-    },
-
   }
 };

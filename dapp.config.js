@@ -4,7 +4,7 @@ const RPC_URL = process.env.NEXT_PUBLIC_ALCHEMY_RPC_URL
 const config = {
   title: 'Museum 3',
   description: 'A Web3 museum with zero-knowledge proof',
-  contractAddress: '0xD547726541FB37dB19fDB263f4855bA969034071',
+  contractAddress: '0x7064f88f4840588b78014d6d3f4556FAAdF20893',
   maxMintAmount: 10,
   presaleMaxMintAmount: 3,
   price: 0.01
@@ -40,7 +40,7 @@ const onboardOptions = {
       {
         walletName: 'lattice',
         rpcUrl: RPC_URL,
-        appName: 'Galleria Dapp'
+        appName: 'museum3 Dapp'
       },
       {
         walletName: 'keepkey',
