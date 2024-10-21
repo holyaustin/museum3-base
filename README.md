@@ -7,11 +7,9 @@ Museum 3
 
 ### 2. Short description about the project
 
-MUSEUM 3 is a Web3 museum with zero-knowledge proof that is a digital platform where users can explore and interact with various exhibits or collections while maintaining privacy through zero-knowledge proofs. Zero-knowledge proofs allow users to verify information without revealing the actual data, ensuring anonymity and security. Visitors to the museum could navigate through galleries, view artifacts, and engage with multimedia content, all while their identities and interactions remain confidential.
+MUSEUM 3 is a Web3 museum which is a digital platform where users can explore and interact with various exhibits or collections while maintaining privacy through zero-knowledge proofs. Zero-knowledge proofs allow users to verify information without revealing the actual data, ensuring anonymity and security. Visitors to the museum could navigate through galleries, view artifacts, and engage with multimedia content, all while their identities and interactions remain confidential.
 
 ### 3. Discord and Telegram username for the team’s person of contact
-
-discord old - holyaustin#3735
 
 discord new - holyaustin
 
@@ -21,18 +19,15 @@ twitter (X) : @holyaustin
 
 ### 4. Repository with project’s code and demo site
 
-<https://github.com/holyaustin/museum3>
+<https://github.com/holyaustin/museum3-base>
 
-<https://museum3.vercel.app/>
+<https://museum3-base.vercel.app/>
 
 ### 5. Video demo
 
 <https://youtu.be/IhpXg_sWpVk>
 
 ## 6. The contract address(es) or website URLs of your deployed application, either on a testnet of your choice or mainnet of a platform of choice
-
-### EthSign
-<https://testnet-scan.sign.global/schema/onchain_evm_421614_0x39>
 
 ### Arbitrum Sepolia Testnet
 
@@ -44,30 +39,7 @@ twitter (X) : @holyaustin
 
 <https://sepolia.arbiscan.io/address/0xEA9113F3DCAf50541092847095112E76Ba6ceC05>
 
-### Neon DevNet
 
-<https://neon-devnet.blockscout.com/address/0x3f114ab8b72d0e075bA3418F1Ea0d6D6d9699ED7>
-
-<https://neon-devnet.blockscout.com/address/0x342b41E0F99fb95F1667BC634Ca0872709e6d4b2>
-
-<https://neon-devnet.blockscout.com/address/0x75f87ADB1Bf202ac17b18f84726C326491251478>
-
-<https://neon-devnet.blockscout.com/address/0xf9Ef878eb9189a60caaa8c288fcc8B571059014B>
-
-### Gnosis Chiado Testnet
-
-<https://gnosis-chiado.blockscout.com/address/0xe078fe7A93017F8e18c1C52E79632d0B94c56c26>
-
-<https://gnosis-chiado.blockscout.com/address/0x8D36089AB6eFdB3FEb2D8Ed42F7eC80f3c6d2b11>
-
-<https://gnosis-chiado.blockscout.com/address/0x42Fc1d53EcF8B4c46989da0d44f07490668338c8>
-
-<https://gnosis-chiado.blockscout.com/address/0xEbb3113e97eeaA16Dcc2FebD6a1617AB731066AE>
-
-### Morph Testnet
-https://explorer-testnet.morphl2.io/address/0xe078fe7A93017F8e18c1C52E79632d0B94c56c26
-
-https://explorer-testnet.morphl2.io/address/0x8D36089AB6eFdB3FEb2D8Ed42F7eC80f3c6d2b11
 
 ## Tech Stack Used
 
@@ -87,13 +59,10 @@ BlockChain: Arbitrum Sepolia Testnet, Neon Devnet, Morph Testnet and Gnosis Chia
 
 4. npm run dev
 
-### npm run dev
 
-Deploying on Testnet / Mainnet
+# This command will deploy your smart contract on Base Sepolia testnet
 
-# This command will deploy your smart contract on BSC testnet
-
-  npx hardhat run scripts/deploy.js --network morphTestnet
+  npx hardhat run scripts/deploy.js --network baseTestnet
 
 ## Areas where ZKPs can be effectively utilized
 
